@@ -28,11 +28,11 @@ void setup() {
   eeprom_update_byte(EEPROM_START_C2, 82);
 
   eeprom_update_byte(EEPROM_GAME_NO, 3);
-  eeprom_update_byte(EEPROM_LEVEL_NO, 114);
+  eeprom_update_byte(EEPROM_LEVEL_NO, 115);
   eeprom_update_byte(EEPROM_MEN_LEFT, 5);
 
   eeprom_update_byte(EEPROM_GAME_NO_ORIG, 3);
-  eeprom_update_byte(EEPROM_LEVEL_NO_ORIG, 114);
+  eeprom_update_byte(EEPROM_LEVEL_NO_ORIG, 115);
   eeprom_update_byte(EEPROM_MEN_LEFT_ORIG, 5);
 
 }
